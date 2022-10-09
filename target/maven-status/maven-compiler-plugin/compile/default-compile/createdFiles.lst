@@ -1,0 +1,5 @@
+com\eafonasyev\config\DemoSecurityConfig.class
+com\eafonasyev\config\MySpringMvcDispecherServlet.class
+com\eafonasyev\controllers\HomeController.class
+com\eafonasyev\config\SecurityWebApplicationInitializer.class
+com\eafonasyev\config\AppConfig.class
