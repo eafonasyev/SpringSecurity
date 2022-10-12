@@ -20,16 +20,21 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         auth.inMemoryAuthentication()
                 .withUser(users.username("john").password("test123").roles("EMPLOYEE"))
-                .withUser(users.username("mary").password("test123").roles("MANAGER"))
-                .withUser(users.username("susan").password("test123").roles("ADMIN"));
+                .withUser(users.username("mary").password("test123").roles("EMPLOYEE","MANAGER"))
+                .withUser(users.username("susan").password("test123").roles("EMPLOYEE","ADMIN"));
     }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests().
-                anyRequest().authenticated().and().
-                formLogin().loginPage("/showMyLoginForm").
+                antMatchers("/").hasAnyRole("EMPLOYEE").
+                antMatchers("/leader").hasAnyRole("MANAGER").
+                antMatchers("/admin").hasAnyRole("ADMIN").
+                anyRequest().authenticated().
+                and().formLogin().loginPage("/showMyLoginForm").
                 loginProcessingUrl("/authenticateTheUser").
+                permitAll().
+                and().logout().
                 permitAll();
     }
 }
