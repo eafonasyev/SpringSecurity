@@ -21,17 +21,18 @@
     <br><br>
     Role:<security:authentication property="principal.authorities"/>
 </p>
-
+<security:authorize access="hasRole('MANAGER')">
 <p>
     <a href="${pageContext.request.contextPath}/leader">LeaderShip</a>
      (Only for LeaderShip)
 </p>
-
+ </security:authorize>
+<security:authorize access="hasRole('ADMIN')">
 <p>
     <a href="${pageContext.request.contextPath}/admin">AdminShip</a>
     (Only for AdminShip)
 </p>
-
+ </security:authorize>
 
 <!-- Add a logout button -->
 <form:form action="${pageContext.request.contextPath}/logout"
