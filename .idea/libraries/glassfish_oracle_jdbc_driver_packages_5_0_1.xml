@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="glassfish-oracle-jdbc-driver-packages-5.0.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/main/persistence/glassfish-oracle-jdbc-driver-packages/5.0.1/glassfish-oracle-jdbc-driver-packages-5.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -6,23 +6,25 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/eafonasyev/config/SecurityConfig.java" line="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/eafonasyev/config/SecurityConfig.java" line="10" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a34d967-e587-43ca-9a8f-e1f7df59ac43" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/access-denied.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/glassfish_oracle_jdbc_driver_packages_5_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc8_21_7_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/presistence-oracle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f767499f-620b-406c-98aa-95a24574b6b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f767499f-620b-406c-98aa-95a24574b6b5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f767499f-620b-406c-98aa-95a24574b6b5/storage_v2/_src_/schema/STUDENT.Gw7Kug.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f767499f-620b-406c-98aa-95a24574b6b5/storage_v2/_src_/schema/STUDENT.Gw7Kug.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eafonasyev/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eafonasyev/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/eafonasyev/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eafonasyev/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eafonasyev/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eafonasyev/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eafonasyev/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eafonasyev/config/AppConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/eafonasyev/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eafonasyev/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eafonasyev/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eafonasyev/controllers/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/spring-security-demo.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-demo.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/eafonasyev/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/eafonasyev/config/AppConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/eafonasyev/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/eafonasyev/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/eafonasyev/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/eafonasyev/controllers/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/home.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,47 +56,46 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="STUDENT: schema" type="ac44c5e0:OracleImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="STUDENT: schema" type="ac44c5e0:OracleImplModel$Schema" />
-        <item name="USERS: table" type="be4db629:OracleImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+            <state relative-caret-position="170">
+              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eafonasyev/controllers/LoginController.java">
+      <file leaf-file-name="presistence-oracle.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/presistence-oracle.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="51">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eafonasyev/config/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="access-denied.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/access-denied.jsp">
+      <file leaf-file-name="DemoAppConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/solution-code-spring-security-demo-08-jdbc-plaintext/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+              <caret line="91" column="63" selection-start-line="81" selection-start-column="4" selection-end-line="91" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -102,8 +103,8 @@
       <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eafonasyev/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="37" column="79" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
+            <state relative-caret-position="197">
+              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,20 +112,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leader.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/leader.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="54" />
+      <file leaf-file-name="DATABASE/f767499f-620b-406c-98aa-95a24574b6b5.SCHEMA:STUDENT" pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/f767499f-620b-406c-98aa-95a24574b6b5.SCHEMA:STUDENT">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>f767499f-620b-406c-98aa-95a24574b6b5.SCHEMA:STUDENT</OriginalElement>
+              <nodes>
+                <node x="6.0" y="0.0">f767499f-620b-406c-98aa-95a24574b6b5.TABLE:STUDENT.USERS</node>
+                <node x="0.0" y="146.0">f767499f-620b-406c-98aa-95a24574b6b5.TABLE:STUDENT.AUTHORITIES</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="f767499f-620b-406c-98aa-95a24574b6b5.TABLE:STUDENT.AUTHORITIES" target="f767499f-620b-406c-98aa-95a24574b6b5.TABLE:STUDENT.USERS">
+                  <point x="0.0" y="-36.5" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="34.5" y="110.0" />
+              <SelectedNodes>
+                <node>f767499f-620b-406c-98aa-95a24574b6b5.TABLE:STUDENT.AUTHORITIES</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -132,7 +144,7 @@
       <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="493">
               <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
             </state>
           </provider>
@@ -148,9 +160,6 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
-              <column-attributes>
-                <column name="ROWID" enabled="false" />
-              </column-attributes>
             </state>
           </provider>
         </entry>
@@ -160,9 +169,6 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
-              <column-attributes>
-                <column name="ROWID" enabled="false" />
-              </column-attributes>
             </state>
           </provider>
         </entry>
@@ -194,18 +200,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/eafonasyev/config/SecurityInitilaser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eafonasyev/config/SecurutyConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eafonasyev/config/MySpringMvcDispecherServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eafonasyev/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/loginForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/fancy_login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/fancy-login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/eafonasyev/controllers/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/leader.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eafonasyev/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eafonasyev/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/access-denied.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/presistence-oracle.propirties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eafonasyev/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eafonasyev/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/presistence-oracle.properties" />
       </list>
     </option>
   </component>
@@ -243,8 +251,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-110" />
-    <option name="y" value="242" />
-    <option name="width" value="1938" />
+    <option name="y" value="241" />
+    <option name="width" value="1939" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -253,7 +261,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,40 +308,19 @@
               <item name="SpringSecurity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eafonasyev" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringSecurity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringSecurity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringSecurity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringSecurity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringSecurity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringSecurity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,10 +328,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lerning java/SPRING/Spring &amp; Hibernate for Beginners (includes Spring Boot)(1)/47. Spring Security - Getting Started/solution-code-spring-security-demo-02-basic-security" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/oracle/database/jdbc/ojdbc8/21.7.0.0/ojdbc8-21.7.0.0.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3306744" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -576,11 +562,12 @@
       <workItem from="1665297029295" duration="14262000" />
       <workItem from="1665579222562" duration="4675000" />
       <workItem from="1665666222508" duration="4098000" />
+      <workItem from="1665896188991" duration="8817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23035000" />
+    <option name="totallyTimeSpent" value="31852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="830" extended-state="6" />
@@ -593,7 +580,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.3295302" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.22214764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -604,22 +591,22 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4538905" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32853025" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Database Console" visible="true" weight="0.3299712" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25704697" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23892617" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="8" visible="true" weight="0.3299712" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="7" weight="0.32963374" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection Results" order="7" weight="0.32963374" />
       <window_info anchor="right" id="TCPMON" order="3" />
     </layout>
   </component>
@@ -635,6 +622,54 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eafonasyev/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="79" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/leader.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f767499f-620b-406c-98aa-95a24574b6b5/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://f767499f-620b-406c-98aa-95a24574b6b5/schema/STUDENT/table/USERS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f767499f-620b-406c-98aa-95a24574b6b5/schema/STUDENT/table/AUTHORITIES">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -650,8 +685,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -781,8 +814,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -840,16 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eafonasyev/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eafonasyev/config/SecurityWebApplicationInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -890,26 +911,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eafonasyev/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="37" column="79" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eafonasyev/controllers/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="204">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -923,7 +932,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="493">
           <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>
@@ -935,9 +944,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-          <column-attributes>
-            <column name="ROWID" enabled="false" />
-          </column-attributes>
         </state>
       </provider>
     </entry>
@@ -945,16 +951,74 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-          <column-attributes>
-            <column name="ROWID" enabled="false" />
-          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/f767499f-620b-406c-98aa-95a24574b6b5.SCHEMA:STUDENT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>f767499f-620b-406c-98aa-95a24574b6b5.SCHEMA:STUDENT</OriginalElement>
+          <nodes>
+            <node x="6.0" y="0.0">f767499f-620b-406c-98aa-95a24574b6b5.TABLE:STUDENT.USERS</node>
+            <node x="0.0" y="146.0">f767499f-620b-406c-98aa-95a24574b6b5.TABLE:STUDENT.AUTHORITIES</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="f767499f-620b-406c-98aa-95a24574b6b5.TABLE:STUDENT.AUTHORITIES" target="f767499f-620b-406c-98aa-95a24574b6b5.TABLE:STUDENT.USERS">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="48.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="34.5" y="110.0" />
+          <SelectedNodes>
+            <node>f767499f-620b-406c-98aa-95a24574b6b5.TABLE:STUDENT.AUTHORITIES</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eafonasyev/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/solution-code-spring-security-demo-08-jdbc-plaintext/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="91" column="63" selection-start-line="81" selection-start-column="4" selection-end-line="91" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eafonasyev/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+        <state relative-caret-position="170">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/presistence-oracle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -964,7 +1028,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>SpringWeb:war exploded</last-edited>
+          <last-edited>spring-security-demo:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -977,7 +1041,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (SpringWeb)|Web</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1012,11 +1076,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|SpringWeb</last-edited>
+          <last-edited>spring-security-demo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.3306744" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1024,7 +1089,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.springframework.security:spring-security-config:5.0.0.RELEASE</last-edited>
+          <last-edited>ojdbc8-21.7.0.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

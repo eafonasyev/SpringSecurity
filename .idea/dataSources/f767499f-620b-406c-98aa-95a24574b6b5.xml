@@ -6,9 +6,9 @@
     </root>
     <schema id="2" parent="1" name="STUDENT">
       <ObjectId>105</ObjectId>
-      <IntrospectionTimestamp>2022-10-14.02:24:27</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2022-10-16.17:40:00</IntrospectionTimestamp>
       <CreatedTimestamp>2022-09-22.01:18:31</CreatedTimestamp>
-      <ModifiedTimestamp>2022-10-14.02:24:26</ModifiedTimestamp>
+      <ModifiedTimestamp>2022-10-14.02:27:42</ModifiedTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -135,7 +135,7 @@
     <table id="43" parent="2" name="AUTHORITIES">
       <ObjectId>122269</ObjectId>
       <CreatedTimestamp>2022-10-14.02:24:26</CreatedTimestamp>
-      <ModifiedTimestamp>2022-10-14.02:24:26</ModifiedTimestamp>
+      <ModifiedTimestamp>2022-10-14.02:27:42</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="44" parent="2" name="CUSTOMER">
@@ -147,7 +147,7 @@
     <table id="45" parent="2" name="USERS">
       <ObjectId>122263</ObjectId>
       <CreatedTimestamp>2022-10-14.02:19:20</CreatedTimestamp>
-      <ModifiedTimestamp>2022-10-14.02:19:20</ModifiedTimestamp>
+      <ModifiedTimestamp>2022-10-14.02:26:34</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <column id="46" parent="43" name="USERNAME">
@@ -158,24 +158,32 @@
       <Position>2</Position>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
     </column>
-    <column id="48" parent="44" name="ID">
+    <foreign-key id="48" parent="43" name="FOREIN_FK">
+      <ModifiedTimestamp>2022-10-14.02:27:42</ModifiedTimestamp>
+      <ColNames>USERNAME</ColNames>
+      <RefSchemaName>STUDENT</RefSchemaName>
+      <RefTableName>USERS</RefTableName>
+      <RefKeyName>USERS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="49" parent="44" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="49" parent="44" name="FIRST_NAME">
+    <column id="50" parent="44" name="FIRST_NAME">
       <Position>2</Position>
       <DataType>VARCHAR2(200 byte)|0s</DataType>
     </column>
-    <column id="50" parent="44" name="LAST_NAME">
+    <column id="51" parent="44" name="LAST_NAME">
       <Position>3</Position>
       <DataType>VARCHAR2(200 byte)|0s</DataType>
     </column>
-    <column id="51" parent="44" name="EMAIL">
+    <column id="52" parent="44" name="EMAIL">
       <Position>4</Position>
       <DataType>VARCHAR2(200 byte)|0s</DataType>
     </column>
-    <index id="52" parent="44" name="CUSTOMER_PK">
+    <index id="53" parent="44" name="CUSTOMER_PK">
       <ObjectId>121550</ObjectId>
       <CreatedTimestamp>2022-09-22.01:19:22</CreatedTimestamp>
       <ModifiedTimestamp>2022-09-22.01:19:22</ModifiedTimestamp>
@@ -183,24 +191,40 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="53" parent="44" name="CUSTOMER_PK">
+    <key id="54" parent="44" name="CUSTOMER_PK">
       <ModifiedTimestamp>2022-09-22.01:19:22</ModifiedTimestamp>
       <ColNames>ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>CUSTOMER_PK</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="54" parent="45" name="USERNAME">
+    <column id="55" parent="45" name="USERNAME">
       <Position>1</Position>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="55" parent="45" name="PASSWORD">
+    <column id="56" parent="45" name="PASSWORD">
       <Position>2</Position>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
     </column>
-    <column id="56" parent="45" name="ENEBLED">
+    <column id="57" parent="45" name="ENEBLED">
       <Position>3</Position>
       <DataType>NUMBER(*)|0s</DataType>
     </column>
+    <index id="58" parent="45" name="USERS_PK">
+      <ObjectId>122270</ObjectId>
+      <CreatedTimestamp>2022-10-14.02:26:34</CreatedTimestamp>
+      <ModifiedTimestamp>2022-10-14.02:26:34</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USERNAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="59" parent="45" name="USERS_PK">
+      <ModifiedTimestamp>2022-10-14.02:26:34</ModifiedTimestamp>
+      <ColNames>USERNAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>USERS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>
